@@ -8,7 +8,6 @@
 
 <script type="text/ecmascript-6">
   import HeaderTop from '@/components/header.vue'
-  import firststep from '@/page/firststep/firststep.vue'
   export default {
     name: 'Hello',
     data () {
@@ -16,7 +15,6 @@
       }
     },
     components: {
-      firststep : firststep,
       headertop : HeaderTop
     }
   }
