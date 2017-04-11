@@ -11,9 +11,6 @@
 </template>
 
 <script>
-  import Vue from 'vue'
-  import VueResource from 'vue-resource'
-  Vue.use(VueResource)
   import ajaxtest from '@/page/firststep/ajaxtest.vue'
   export default {
     name: 'firststep',
