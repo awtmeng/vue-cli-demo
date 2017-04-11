@@ -5,6 +5,7 @@
       <li></li>
     </ul>
     <div>这里是测试vue-resource</div>
+    <br/>
     <ajaxtest></ajaxtest>
   </div>
 </template>

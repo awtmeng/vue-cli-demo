@@ -18,6 +18,29 @@ npm run build
 npm run build --report
 ```
 
+## Vue-cli快速构建Vue项目
+
+``` bash
+# 安装vue-cli之前，需要先装好vue 和 webpack
+npm install -g vue      //全局安装vue
+npm install -g webpack  //全局安装webpack
+npm install -g vue-cli  //全局安装vue-cli
+
+# 使用vue-cli构建vue项目
+vue init webpack vue-cli-demo   //vue-cli-demo为你的vue项目的名词
+cd vue-cli-demo
+npm install
+
+# 启动vue
+npm run dev
+浏览器会自动打开http://localhost:8080
+
+# 生产环境
+npm run build
+会生成静态文件到dist里边
+
+```
+
 ## Mock 模拟数据
 
 ``` bash
