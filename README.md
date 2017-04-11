@@ -21,23 +21,23 @@ npm run build --report
 ## Mock 模拟数据
 
 ``` bash
-一、全局安装
+#一、全局安装
   npm install -g json-server
-二、项目下创建mock文件夹
-三、mock文件夹下添加db.json文件，内容如下：
+#二、项目下创建mock文件夹
+#三、mock文件夹下添加db.json文件，内容如下：
   {
     "test": {
       "title" : "I'm title"
     }
   }
-四、package.json添加命令：
+#四、package.json添加命令：
   "mock": "json-server --watch mock/db.json",
   "mockdev": "npm run mock & npm run dev"
-五、启动mock服务
+#五、启动mock服务
   npm run mock
   访问http://localhost:3000/test
   可以访问已经创建的db.json里的数据
-六、设置代理
+#六、设置代理
   在config下的index.js文件夹下设置如下：
   proxyTable: {
     '/api':{
